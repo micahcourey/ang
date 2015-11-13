@@ -1,7 +1,7 @@
 Ang
 ===
 
-By Micah Courey, 19-Oct-2015
+13-Nov-2015
 
 A Custom module that incorporates AngularJS.
 
