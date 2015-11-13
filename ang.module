@@ -1,0 +1,16 @@
+<?php
+/**
+ * Implements hook_menu().
+ */
+
+ function ang_menu() {
+   $items = array();
+
+   $items['api.node'] = array(
+     'access arguments' => array('access content'),
+     'page callback' => 'ang_node_api',
+     'page arguments' => array(2),
+     'delivery callback' => 'drupal_json_output'
+   );
+   return $items;
+ }
