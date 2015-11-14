@@ -6,8 +6,8 @@
       <li ng-repeat="node in nodes"><button ng-click="open(node.nid)">Open</button> {{ node.title }}</li>
     </ul>
     <script type="text/ng-template" id="loadedNodeTemplate">
-    <h3>{{ loadedNode.title }}</h3>
-    {{ loadedNode.body }}
-    </script>
+	    <h3>{{ loadedNode.title }}</h3>
+	    {{ loadedNode.body }}
+	  </script>
   </div>
 </div>
